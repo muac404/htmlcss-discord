@@ -16,6 +16,7 @@ body{
 }
 .box-head{
     padding: 16px 0;
+    background-color: #255EE9;
 }
 
 /* DEBUG */
@@ -25,7 +26,7 @@ body{
 
 
 .debug .header-top{
-    background-color: #daa520;
+    /* background-color: #daa520; */
    
     
     
@@ -70,16 +71,36 @@ body{
 
 .main-nav{
     width: 60%;
+   
     text-align: center;
     padding: 5px;
     border: 2px dashed black;
 }
 
+.main-nav li{
+    list-style: none;
+  
+}
+li a{
+    text-decoration: none;
+    color: white;
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
 .login{
     width: 20%;
     padding: 5px;
     text-align: right;
     border: 2px dashed black;
+}
+
+button{
+    border-radius: 20px;
+    border:none;
+    padding: 10px 14px;
 }
 
 .box-rosa{
@@ -99,6 +120,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: #255EE9;
     
 }
 
