@@ -54,7 +54,7 @@ p{
 }
 
 .debug .box-green{
-    background-color: green;
+    /* background-color: green; */
 }
 
 .debug .col-big-footer{
@@ -193,6 +193,28 @@ h2{
     font-size: 46px;
     
 }
+
+.box-green h2{
+    text-align: center;
+}
+
+.box-green p{
+    text-align: center;
+}
+
+.testo-centrale{
+    max-width: 900px;
+    margin: auto;
+}
+
+.testo-centrale h2{
+    font-size: 38px;
+}
+.chillin-image{
+    max-width: 800px;
+    margin: auto;
+}
+
 .col-small{
     width: 40%;
     height: 450px;
