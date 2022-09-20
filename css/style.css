@@ -8,6 +8,10 @@ body{
 }
 
 /* COMMON */
+p{
+    font-size: 20px;
+    
+}
 .container {
     max-width: 1200px;
     margin: auto;
@@ -39,13 +43,13 @@ body{
 }
 
 .debug .col-big{
-    background-color: #1e90ff;
-    border: 2px dashed black;
+    /* background-color: #1e90ff; */
+    /* border: 2px dashed black; */
 }
 
 .debug .col-small{
-    background-color: #ffc0cb;
-    border: 2px dashed black;
+    /* background-color: #ffc0cb; */
+    /* border: 2px dashed black; */
 
 }
 
@@ -133,7 +137,7 @@ button{
 
 h1{
     text-align: center;
-    font-size: 46px;
+    font-size: 48px;
     color: white;
 }
 
@@ -182,11 +186,17 @@ h1{
 .col-big{
     width: 60%;
     height: 450px;
+    /* background-image: url('../img/item1.svg');
+    background-size: contain; */
 }
-
+h2{
+    font-size: 46px;
+    
+}
 .col-small{
     width: 40%;
     height: 450px;
+    
 }
 
 .grey{
