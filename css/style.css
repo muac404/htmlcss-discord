@@ -215,6 +215,44 @@ h2{
     margin: auto;
 }
 
+.download-bottom{
+    border-radius: 20px;
+    border:none;
+    padding: 10px 14px;
+    
+}
+
+#violet-btn{
+    background-color: #7289DA;
+    margin: auto;
+    
+}
+
+#violet-btn a{
+    color: white;
+}
+
+#violet-btn i{
+    color: white;
+}
+
+h3{
+    text-align: center;
+   
+    
+
+}
+
+.sez-3-bottom{
+    background-image: url('../img/stars.svg');
+    background-size:contain;
+    background-position: center;
+}
+#bottom-btn{
+    width: 200px;
+    margin: auto;
+    text-align: center;
+}
 .col-small{
     width: 40%;
     height: 450px;
